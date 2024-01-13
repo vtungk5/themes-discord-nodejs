@@ -1,0 +1,14 @@
+.popoutRoot-3fOt6W.right-3CnzQw.arrowAlignmentTop-3gRXIX:before {
+    top: 10px;
+    right: 100%;
+    border-right-color: var(--white-500);
+}
+.popoutRoot-3fOt6W.arrowAlignmentMiddle-SfK6qV:before, .popoutRoot-3fOt6W.arrowAlignmentTop-3gRXIX:before {
+    border: 8px solid transparent;
+    content: " ";
+    width: 0;
+    height: 0;
+    position: absolute;
+    pointer-events: none;
+}
+

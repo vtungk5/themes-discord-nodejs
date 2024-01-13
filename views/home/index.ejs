@@ -1,0 +1,233 @@
+<%- include('../layout/head') %>
+    <div class="bg-dark-3 h-100 w-100">
+        <div class="position-fixed SideMENU">
+            <div class="navbar fixed-top align-items-start bg-dark h-100">
+                <div class="w5rem flex-column align-items-center justify-content-center mt-1 d-flex">
+                    <a href="/" class="userChat active">
+                        <img
+                            src="https://cdn.discordapp.com/icons/110373943822540800/a_1f55f188cea909428d3785e3cba6a7db.webp?size=128" />
+                    </a>
+                    <div class="mt-2 mb-2 hrC"></div>
+                    <div class="ItemChat position-relative open_tooltip">
+                        <svg aria-hidden="true" role="img" width="24" height="24" viewBox="0 0 24 24">
+                            <path fill="currentColor"
+                                d="M20 11.1111H12.8889V4H11.1111V11.1111H4V12.8889H11.1111V20H12.8889V12.8889H20V11.1111Z">
+                            </path>
+                        </svg>
+                        <div class="position-absolute" tooltip="instruct" value-tooltip="AddGroup" modal="AddGroup">
+                            <h1 class="text-black fs-15">Tạo Máy Chủ Cho Riêng Bạn</h1>
+                            <div class="text-gray2 fs-13 fw-500">
+                                <p>Tạo hẳn một máy chủ mới có trò chuyện văn bản và thoại với đồng bọn của bạn!</p>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <button class="btn btn-primary text-center fw-500 fs-13 border-0" type-tooltip="ok"
+                                    modal="AddGroup">Hiểu
+                                    rồi!</button>
+                                <span class="text-gray2 fs-13 ms-4 fw-500" role="button" type-tooltip="all" modal="AddGroup">Bỏ
+                                    qua tất
+                                    cả chỉ dẫn</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sidebar bg-dark-2 start-0 h-100 position-fixed d-flex flex-row">
+                <div class="mt-3 ps-3 pe-3 w-lg-auto w-100">
+                    <form class="d-flex">
+                        <input class="form-control text-gray box-shadow-none bg-dark border-0 outline-0" type="text"
+                            placeholder="Tìm kiếm bạn bè...@all" />
+                        <button class="btn ms-2 fw-semibold fs-13 border-0 bg-green text-white">Tìm</button>
+                    </form>
+                    <div class="bg-dark-4 d-flex align-items-center text-white mt-3 layout_itemChat border-0"
+                        role="button">
+                        <svg aria-hidden="true" role="img" width="20" height="20" viewBox="0 0 24 24">
+                            <g fill="none" fill-rule="evenodd">
+                                <path fill="currentColor" fill-rule="nonzero"
+                                    d="M0.5,0 L0.5,1.5 C0.5,5.65 2.71,9.28 6,11.3 L6,16 L21,16 L21,14 C21,11.34 15.67,10 13,10 C13,10 12.83,10 12.75,10 C8,10 4,6 4,1.5 L4,0 L0.5,0 Z M13,0 C10.790861,0 9,1.790861 9,4 C9,6.209139 10.790861,8 13,8 C15.209139,8 17,6.209139 17,4 C17,1.790861 15.209139,0 13,0 Z"
+                                    transform="translate(2 4)"></path>
+                                <path
+                                    d="M0,0 L24,0 L24,24 L0,24 L0,0 Z M0,0 L24,0 L24,24 L0,24 L0,0 Z M0,0 L24,0 L24,24 L0,24 L0,0 Z">
+                                </path>
+                            </g>
+                        </svg>
+                        <span class="ms-2 fs-15">Bạn bè</span>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between mt-2">
+                        <span class="text-gray fs-13">Tin nhắn trực tiếp</span>
+                        <span class="text-gray" role="button">
+                            <svg x="0" y="0" aria-hidden="true" role="img" width="15" height="15" viewBox="0 0 18 18">
+                                <polygon fill-rule="nonzero" fill="currentColor"
+                                    points="15 10 10 10 10 15 8 15 8 10 3 10 3 8 8 8 8 3 10 3 10 8 15 8"></polygon>
+                            </svg>
+                        </span>
+                    </div>
+                    <div class="bg-dark-4 d-flex align-items-center text-white mt-2 layout_itemChat border-0"
+                        role="button">
+                        <div class="UserAV active">
+                            <img width="32" height="32" class="rounded-circle"
+                                src="https://cdn.discordapp.com/icons/110373943822540800/a_1f55f188cea909428d3785e3cba6a7db.webp?size=128" />
+                        </div>
+                        <span class="ms-2 fs-13 fw-500">Linh Đan</span>
+                    </div>
+                    <div class=" d-flex align-items-center text-white mt-2 layout_itemChat border-0" role="button">
+                        <div class="UserAV">
+                            <img width="32" height="32" class="rounded-circle"
+                                src="https://cdn.discordapp.com/icons/110373943822540800/a_1f55f188cea909428d3785e3cba6a7db.webp?size=128" />
+                        </div>
+                        <span class="ms-2 fs-13 fw-500">Linh Đan</span>
+                    </div>
+                    <div class=" d-flex align-items-center text-white mt-2 layout_itemChat border-0" role="button">
+                        <div class="UserAV">
+                            <img width="32" height="32" class="rounded-circle"
+                                src="https://cdn.discordapp.com/icons/110373943822540800/a_1f55f188cea909428d3785e3cba6a7db.webp?size=128" />
+                        </div>
+                        <span class="ms-2 fs-13 fw-500">Linh Đan</span>
+                    </div>
+                    <div class=" d-flex align-items-center text-white mt-2 layout_itemChat border-0" role="button">
+                        <div class="UserAV">
+                            <img width="32" height="32" class="rounded-circle"
+                                src="https://cdn.discordapp.com/icons/110373943822540800/a_1f55f188cea909428d3785e3cba6a7db.webp?size=128" />
+                        </div>
+                        <span class="ms-2 fs-13 fw-500">Linh Đan</span>
+                    </div>
+                </div>
+                <div class="ismobile close-sidebar fs-28 text-gray mt-1 me-2">
+                    <i class="fa-duotone fa-circle-xmark" role="button"></i>
+                </div>
+            </div>
+        </div>
+        <div class="content h-100 d-flex flex-column">
+            <div class="nav-chatbox">
+                <div class="ps-3 pe-3 h-100 text-gray d-flex justify-content-between align-items-center">
+                    <span class="ismobile" role="button">
+                        <i class="fa-regular fs-2 fa-angle-left toggleMenu"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="ps-lg-5 pe-lg-5  h-100 d-flex flex-column">
+                <div class="content-chatbox d-flex flex-column h-100 justify-content-between">
+                    <div id="chat" class="h-90"></div>
+                    <div class="d-flex w-100 align-items-start">
+                        <div class="inputchat mb-lg-4 ps-2 pe-2 pt-2 pb-2 bg-dark-5 d-flex align-items-center ">
+                            <button class="border-0 bg-none text-gray">
+                                <svg width="24" height="24" viewBox="0 0 24 24">
+                                    <path class="attachButtonPlus-3IYelE" fill="currentColor"
+                                        d="M12 2.00098C6.486 2.00098 2 6.48698 2 12.001C2 17.515 6.486 22.001 12 22.001C17.514 22.001 22 17.515 22 12.001C22 6.48698 17.514 2.00098 12 2.00098ZM17 13.001H13V17.001H11V13.001H7V11.001H11V7.00098H13V11.001H17V13.001Z">
+                                    </path>
+                                </svg>
+                            </button>
+                            <form class="w-100" id="message" method="POST">
+                                <textarea class="ms-2 w-100 border-0 text-gray fw-500 fs-13 bg-none" name="w3review"
+                                    rows="1" placeholder="nhập nội dung"></textarea>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hide_body"></div>
+    <div class="modal fade" id="AddGroup" tabindex="-1" aria-labelledby="AddGroupLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content bg-white">
+                <div class="modal-header border-0 text-center w-100 d-flex align-items-center flex-column justify-content-center">
+                    <h1 class="modal-title fs-4 text-black mt-3 fw-500" id="name">Tạo máy chủ</h1>
+                    <p class="fs-13 text-gray2 fw-400 mt-2 ps-4 pe-4">Hãy cá nhân hóa máy chủ bằng cách đặt tên và thêm biểu tượng đại diện. Bạn có thể đổi bất cứ lúc nào.</p>
+                </div>
+                <div class="modal-body">
+                    <form method="POST" action="/api/profile/update-name" data-ajax>
+                        <div class="mb-3">
+                            <label for="namesv" class="form-label fs-13 text-gray2 fw-500">Tên Máy Chủ<sub class="text-danger ms-1">*</sub></label>
+                            <input type="text" name="namesv"
+                                class="input form-control outline-0 box-shadow-none bg-gray3 text-gray2 border-0 fs-15"
+                                id="namesv" aria-describedby="namesv">
+                        </div>
+                        <div class="mb-3">
+                            <label for="gioithieu" class="form-label fs-13 text-gray2 fw-500">Giới thiệu</label>
+                            <textarea  rows="4" cols="50" type="text" name="gioithieu"
+                                class=" form-control outline-0 box-shadow-none bg-gray3 text-gray2 border-0 fs-15"
+                                id="gioithieu" aria-describedby="gioithieu"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary mt-3 w-100 border-0">Tạo máy chủ</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <% if(!users.fullname){ %>
+        <!-- Modal -->
+        <div class="modal fade" id="UpdateName" tabindex="-1" aria-labelledby="UpdateNameLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header border-0">
+                        <h1 class="modal-title fw-400 fs-6" id="name">Tên gọi của bạn ?</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form method="POST" action="/api/profile/update-name" data-ajax>
+                            <input type="text"
+                                class="input form-control outline-0 box-shadow-none bg-dark text-gray border-0 fs-15"
+                                id="name" aria-describedby="name" name="fullname">
+                            <button type="submit" class="btn btn-primary mt-3 w-100 border-0">Bắt đầu</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <% } %>
+            <%- include('../layout/script') %>
+
+                <% if (!users.fullname) { %>
+                    <script>
+                        $(document).ready(function () {
+                            $('#UpdateName').modal('show');
+                        });
+                    </script>
+                    <% } %>
+                        <script>
+                            $('#message > textarea').on("keyup", function (e) {
+                                if (e.keyCode == '13') {
+                                    $('form#message').submit();
+                                }
+                            });
+                            $(".toggleMenu").click(function (e) {
+                                $('.SideMENU').addClass('show');
+                            });
+                            $(".close-sidebar").click(function (e) {
+                                $('.SideMENU').removeClass('show');
+                            });
+                            $(document).ready(function () {
+                                $(".open_tooltip").click(function (e) {
+                                    e.preventDefault();
+                                    var my = $(this);
+                                    var value = my.find('[tooltip="instruct"]').attr("value-tooltip");
+
+                                    if ($.cookie(`${value}`) != "ok") {
+
+                                        my.find(` > [tooltip="instruct"]`).show();
+
+                                        my.find(`[type-tooltip="ok"]`).click(function (e) {
+                                            $.cookie(`${value}`, "ok");
+                                            $(`#${$(this).attr("modal")}`).modal('show');
+                                            $('[tooltip="instruct"]').hide();
+                                        });
+
+                                        my.find(`[type-tooltip="all"]`).click(function (e) {
+                                            for (let i = 0; i < $(`[tooltip="instruct"]`).length; i++) {
+                                                const element = $(`[tooltip="instruct"]`)[i];
+                                                var valuex = element.getAttribute("value-tooltip");
+                                                $.cookie(`${valuex}`, "ok");
+                                                $('[tooltip="instruct"]').hide();
+                                            }
+                                            $(`#${$(this).attr("modal")}`).modal('show');
+                                        });
+
+                                    } else {
+                                        $(`#${my.find('[tooltip="instruct"]').attr("modal")}`).modal('show');
+                                    }
+
+                                })
+
+                            });
+                        </script>
+                        <%- include('../layout/end') %>
